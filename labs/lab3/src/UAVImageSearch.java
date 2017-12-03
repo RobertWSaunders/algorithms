@@ -10,7 +10,7 @@ import java.util.List;
 
 public class UAVImageSearch {
 
-    private static int numImages = 100; // the number of interesting images to save
+    private static int numImages = 10; // the number of interesting images to save
     private static String images_path = "images.csv"; // path to image bit dataset
     private static String coords_path = "coords.csv"; // path to coords dataset
     private static ArrayList<String> images; // array to hold the original set of images and later re-assigned for interesting images
